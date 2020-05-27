@@ -1,0 +1,118 @@
+section {
+    margin-bottom: 2em;
+}
+
+.title {
+    color: blueviolet;
+    text-align: center;
+}
+
+hr {
+    border-top: thick solid khaki;
+    width: 13%;
+}
+
+.btn {
+    width: 10em;
+}
+
+.btn-violet {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn-khaki {
+    background-color: khaki;
+    color: black;
+}
+
+.navbar-pequena {
+    height: 40px;
+    background-color: black;
+}
+
+.navbar-pequena img {
+    display: block;
+    margin: auto auto;
+    padding-top: 4px;
+}
+
+.header {
+    height: 37em;
+    background: blueviolet url("img/banner.jpg") no-repeat scroll center;
+}
+
+.header .title-header {
+    color: white;
+    padding-left: 7em;
+    padding-top: 10em;
+}
+
+.header .title-header h1 {
+    text-shadow: gray;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header .nav {
+    background-color: rgba(138, 43, 226, 0.8);
+    padding: 2.3em 5em 2.3em 0;
+}
+
+.header .nav .nav-item .nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+.header .nav .nav-item .search input {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+.header .nav .nav-item .search input::placeholder {
+    color: white;
+}
+
+#header .logo {
+    position: absolute;
+    top: 1.5em;
+    left: 1.3em;
+}
+
+#info {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 3em 0;
+}
+
+#info h1 {
+    color: khaki;
+}
+
+#info p {
+    color: white;
+}
+
+#latest-news .news {
+    font-size: 1.125em;
+    padding: 2em;
+}
+
+#latest-news .news h5 {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#latest-news .news p {
+    color: #A7A7A7;
+}
+
+#latest-news .news img {
+    width: 100%;
+}
+
+#register .content {
+    padding: 2em 7em;
+    text-align: center;
+}
